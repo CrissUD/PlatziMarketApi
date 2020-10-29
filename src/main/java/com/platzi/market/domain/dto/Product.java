@@ -1,7 +1,5 @@
 package com.platzi.market.domain.dto;
 
-import com.platzi.market.domain.dto.Category;
-
 public class Product {
     private int productId;
     private String name;

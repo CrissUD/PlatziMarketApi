@@ -6,6 +6,7 @@ import java.io.Serializable;
 
 @Embeddable
 public class CompraProductoPK implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     @Column(name = "id_compra")
     private Integer idCompra;
